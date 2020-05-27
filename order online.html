@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="logoBig.png" type="image/x-icon">
+    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="bootstrap-theme.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+	<link href="drop.css" rel="stylesheet" type="text/css">
+    <link href="jquery.min.js" rel="stylesheet" type="text/css">
+    <script src="jquery-3.2.1.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="https://use.fontawesome.com/43a032c80c.js"></script>
+    <script src="scripts.js"></script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-104689093-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <title>Menu Restaurant</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Section 1 includes the Logo, Slogan and Horizontal Line Menu-->
+        <div class="section1">
+            <!-- Navigation -->
+	    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	        <div class="container">
+	            <!-- Brand and toggle get grouped for better mobile display -->
+	            <div class="navbar-header">
+<!-- 	                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+	                 aria-expanded="false" aria-controls="navbar">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar top-bar"></span>
+	                    <span class="icon-bar middle-bar"></span>
+	                    <span class="icon-bar bottom-bar"></span>
+	                </button> -->
+						<body>
+					
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">HOME</a>
+  <a href="#">Menu</a>
+  <a href="#">Contact</a>
+  <a href="#">jobs</a>
+  <a href="#">Order online</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ </button>  
+
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+	                <a class="navbar-brand" href="/"><img class="img-responsive" src="static/img/white-logo.png" alt=""></a>
+	            </div>
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse" id="navbar">
+	                <ul class="nav navbar-nav navbar-right">
+	     	   	<li>
+		    	<a href="test.html">Home</a>
+		        	</li>
+			
+	          
+	                    <li>
+	                        <a href="main menu.html">Menu</a>
+	                    </li>
+						<li>
+	                        <a href="special menu.html">Hot Sales</a>
+	                    </li>
+						<li>
+	                        <a href="Contact.html">Contact</a>
+	                    </li>
+				        
+				        <li><a href="jobs.html">Jobs</a></li>
+						<li>
+						 <a href="order online.html">Order Online</a>
+						 </li>
+						 <li>
+						 <a href="donation.html">Donation Request</a>
+						 </li>
+						 <li>
+						 <a href="food.html">Book a table</a>
+						 </li>
+						 <li>
+						 <a href="location.html">Location</a>
+						 </li>
+	                   
+	                </ul>
+	            </div>
+   
+	            <!-- /.navbar-collapse -->
+	        </div>
+	        <!-- /.container -->
+	    </nav>
+	    
+		<div class="container">
+			<br />
+	    
+		<div class="container">
+			<br />
+			
+  <br /><br /><br />
+  
+                <a
+                href="#menu" class="btn-text lead d-inline-block text-white border-top border-bottom mt-4 pt-1 pb-1"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">View Today's Menu</a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="maincontent">
+            <div class="container">
+                <section id="menu">
+                    <div class="block menu1">
+                        <div class="buttons-container"> <a href="#" class="button button--is-active" data-target="pizzaMenu">Pizzas</a>
+                            <a
+                            href="#" class="button" data-target="coffeeMenu">Drinks</a> <a href="#" class="button" data-target="noodlesMenu">Desserts</a>
+                        </div>
+  
+  
+                        <!-- Start Pizza Menu -->
+                        <div class="menu menu--is-visible" id="pizzaMenu" data-aos="fade-up">
+                            <div class="item row align-items-center">
+                                <div class="col-sm-4 pr-5">
+                                    <img class="product-img" src="chickenPizza.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Cheese Pizza</h3> <span class="item__dots"></span> <span class="item__price">$15</span>
+                                    </div>
+                                    <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum
+                                        officia eaque nobis ut.</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="1" data-name="Cheese Pizza" data-price="15" data-quantity="1"
+                                    data-image="pizza-1.png">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-4 pr-5">
+                                    <img class="product-img" src="hot pastrami.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Hot Pastrami</h3> <span class="item__dots"></span> <span class="item__price">$25</span>
+                                    </div>
+                                    <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum
+                                        officia eaque nobis ut.</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="2" data-name="Hot Pastrami" data-price="25" data-quantity="1"
+                                    data-image="pizza-2.png">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-4 pr-5">
+                                    <img class="product-img" src="pepporanta-300x300.png">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Classic Pizza</h3> <span class="item__dots"></span> <span class="item__price">$20</span>
+                                    </div>
+                                    <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum
+                                        officia eaque nobis ut.</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="3" data-name="Classic Pizza" data-price="20" data-quantity="1"
+                                    data-image="pizza-3.png">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-4 pr-5">
+                                    <img class="product-img" src="marina-300x300.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Country Pizza</h3> <span class="item__dots"></span> <span class="item__price">$17</span>
+                                    </div>
+                                    <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum
+                                        officia eaque nobis ut.</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="4" data-name="Country Pizza" data-price="17" data-quantity="1"
+                                    data-image="pizza-4.png">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Pizza Menu -->
+                        <!-- Start Coffee Menu -->
+						<div class="menu" id="coffeeMenu">
+                            <div class="item">
+                                <div class="item__header">
+                                     <h3 class="item__title">Cappuccino</h3> <span class="item__dots"></span> <span class="item__price">$4</span>
+                                </div>
+                                <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum
+                                    officia eaque nobis ut.</p>
+                            </div>
+                        
+                            </div>
+                            <div class="item">
+                                <div class="item__header">
+                                     <h3 class="item__title">Iced Coffee</h3> <span class="item__dots"></span> <span class="item__price">$5</span>
+                                </div>
+                                <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum
+                                    officia eaque nobis ut.</p>
+                            </div>
+                            <div class="item">
+                                <div class="item__header">
+                                     <h3 class="item__title">Café Latte</h3> <span class="item__dots"></span> <span class="item__price">$3</span>
+                                </div>
+                                <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum
+                                    officia eaque nobis ut.</p>
+                            </div>
+                            <div class="item">
+                                <div class="item__header">
+                                     <h3 class="item__title">Espresso</h3> <span class="item__dots"></span> <span class="item__price">$4</span>
+                                </div>
+                                <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum
+                                    officia eaque nobis ut.</p>
+                            </div>
+                        </div>
+                        <!-- End Coffee Menu -->
+                        <!-- Start Noodles Menu -->
+                        <div class="menu" id="noodlesMenu">
+                            <div class="item">
+                                <div class="item__header">
+                                     <h3 class="item__title">Chicken Noodles</h3> <span class="item__dots"></span> <span class="item__price">$16</span>
+                                </div>
+                                <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum
+                                    officia eaque nobis ut.</p>
+                            </div>
+                            <div class="item">
+                                <div class="item__header">
+                                     <h3 class="item__title">Egg Noodles</h3> <span class="item__dots"></span> <span class="item__price">$12</span>
+                                </div>
+                                <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum
+                                    officia eaque nobis ut.</p>
+                            </div>
+                            <div class="item">
+                                <div class="item__header">
+                                     <h3 class="item__title">Veg Noodles</h3> <span class="item__dots"></span> <span class="item__price">$10</span>
+                                </div>
+                                <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum
+                                    officia eaque nobis ut.</p>
+                            </div>
+                            <div class="item">
+                                <div class="item__header">
+                                     <h3 class="item__title">Chuck Norris Noodles</h3> <span class="item__dots"></span> <span class="item__price">$20</span>
+                                </div>
+                                <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum
+                                    officia eaque nobis ut.</p>
+                            </div>
+                        </div>
+                        <!-- End Noodles Menu -->
+                    </div>
+                    <!-- End block -->
+                    <script src="mycart.js"></script>
+                    <script src="mycart-custom.js"></script>
+
+.
+                </section>
+            </div>
+        </div>
+        <div class="nav-item my-cart-icon">
+            <img src="cart.svg" style="width:20px;"> <span class="badge badge-notify my-cart-badge"> </span>
+        </div>
+        <!-- Section 7 includes the website footer-->
+        <div class="section7">
+            <div class="footer">
+                <h5>
+                    <img src="footer logo.png" alt="White Logo">
+                </h5>
+                <p>Thats what we are</p>
+                <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+                <i class="fa fa-pinterest-square fa-lg" aria-hidden="true"></i>
+                <p>Copyright © 2020 Menu Restaurant. All Rights Reserved by  Ayesha Prema<br><span class="text-muted"></span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

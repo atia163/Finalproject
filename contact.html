@@ -1,0 +1,165 @@
+<html>
+	<head>
+		<!-- page meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="logoBig.png" type="image/x-icon">
+		<!-- end page meta -->
+		<title></title>
+		<!-- bootstrapcdn.com bootstrap.min.css -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="
+		sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="jquery.css">
+		<!-- bootstrapcdn.com Font Awesome -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+		<link rel="stylesheet" href="copy1.css">
+		<link rel="stylesheet" href="drop.css">
+		<!-- <link rel="stylesheet" href="/static/navbar.css"> -->
+		
+	</head>
+	<div class="container">
+        <!-- Section 1 includes the Logo, Slogan and Horizontal Line Menu-->
+        <div class="section1">
+            <!-- Navigation -->
+	    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	        <div class="container">
+	            <!-- Brand and toggle get grouped for better mobile display -->
+	            <div class="navbar-header">
+<!-- 	                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+	                 aria-expanded="false" aria-controls="navbar">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar top-bar"></span>
+	                    <span class="icon-bar middle-bar"></span>
+	                    <span class="icon-bar bottom-bar"></span>
+	                </button> -->
+						<body>
+					
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">HOME</a>
+  <a href="#">Menu</a>
+  <a href="#">Contact</a>
+  <a href="#">jobs</a>
+  <a href="#">Order online</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ </button>  
+
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+	                <a class="navbar-brand" href="/"><img class="img-responsive" src="static/img/white-logo.png" alt=""></a>
+	            </div>
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse" id="navbar">
+	                <ul class="nav navbar-nav navbar-right">
+	     	   	<li>
+		    	<a href="test.html">Home</a>
+		        	</li>
+			
+	          
+	                    <li>
+	                        <a href="main menu.html">Menu</a>
+	                    </li>
+						<li>
+	                        <a href="special menu.html">Hot Sales</a>
+	                    </li>
+						
+				        <li>
+	                        <a href="Contact.html">Contact</a>
+	                    </li>
+				        <li><a href="jobs.html">Jobs</a></li>
+						<li>
+						 <a href="order online">Order Online</a>
+						 </li>
+						 <li>
+						 <a href="donation.html">Donation Request</a>
+						 </li>
+						 <li>
+						 <a href="food.html">Book a table</a>
+						 </li>
+						 <li>
+						 <a href="location.html">Location</a>
+						 </li>
+	                   
+	                </ul>
+	            </div>
+   
+	            <!-- /.navbar-collapse -->
+	        </div>
+	        <!-- /.container -->
+	    </nav>
+	    
+		<div class="container">
+			<br />
+	    
+		<div class="container">
+			 <br /> <br />
+	
+	
+  <h2>Contact Us</h2>
+  <br />
+  
+
+
+  
+    <p>Your feedback is important to us. For the best possible service please provide as much information as possible. If you are giving feedback about a store, please include which store and if applicable, your order information and who helped you.</p>
+    <p>Allow 24-48 hours (excluding weekends) for a response.</p>
+    
+     
+   
+    
+    <form class="form-horizontal" action="/contact" method=post>
+    <div style="display:none;"><input id="csrf_token" name="csrf_token" type="hidden" value="1589227934##374c4301d194428d44858702ee9874368573b4b6"></div>
+
+      <div class="form-group"> 
+        <label class="col-sm-1 control-label" for="name">Name</label>
+        <div class="col-sm-11">
+          <input class="form-control" id="name" name="name" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-1 control-label" for="email">Email</label>
+        <div class="col-sm-11">
+          <input class="form-control" id="email" name="email" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-1 control-label" for="phone">Phone</label>
+        <div class="col-sm-11">
+          <input class="form-control" id="phone" name="phone" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-1 control-label" for="message">Comments</label>
+        <div class="col-sm-11">
+          <textarea class="form-control" id="message" name="message"></textarea>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-1 col-sm-11">
+         <input class="btn btn-primary" id="submit" name="submit" type="submit" value="Send">
+        </div>
+      </div>
+
+    </form>
+    
+
+		</div>

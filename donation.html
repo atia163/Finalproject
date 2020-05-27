@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="logoBig.png" type="image/x-icon">
+    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="bootstrap-theme.css" rel="stylesheet" type="text/css">
+	<link href="drop.css" rel="stylesheet" type="text/css">
+    <link href="jquery.min.js" rel="stylesheet" type="text/css">
+    <script src="jquery-3.2.1.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="https://use.fontawesome.com/43a032c80c.js"></script>
+    <script src="scripts.js"></script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-104689093-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <title>Menu Restaurant</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Section 1 includes the Logo, Slogan and Horizontal Line Menu-->
+        <div class="section1">
+            <!-- Navigation -->
+	    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	        <div class="container">
+	            <!-- Brand and toggle get grouped for better mobile display -->
+	            <div class="navbar-header">
+<!-- 	                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+	                 aria-expanded="false" aria-controls="navbar">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar top-bar"></span>
+	                    <span class="icon-bar middle-bar"></span>
+	                    <span class="icon-bar bottom-bar"></span>
+	                </button> -->
+						<body>
+					
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">HOME</a>
+  <a href="#">Menu</a>
+  <a href="#">Contact</a>
+  <a href="#">jobs</a>
+  <a href="#">Order online</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ </button>  
+
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+	                <a class="navbar-brand" href="/"><img class="img-responsive" src="static/img/white-logo.png" alt=""></a>
+	            </div>
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse" id="navbar">
+	                <ul class="nav navbar-nav navbar-right">
+	     	   	<li>
+		    	<a href="test.html">Home</a>
+		        	</li>
+			
+	          
+	                    <li>
+	                        <a href="main menu.html">Menu</a>
+	                    </li>
+						<li>
+	                        <a href="special menu.html">Hot Sales</a>
+	                    </li>
+						<li>
+	                        <a href="Contact.html">Contact</a>
+	                    </li>
+				        
+				        <li><a href="jobs.html">Jobs</a></li>
+						<li>
+						 <a href="order online.html">Order Online</a>
+						 </li>
+						 <li>
+						 <a href="donation.html">Donation Request</a>
+						 </li>
+						 <li>
+						 <a href="food.html">Book a table</a>
+						 </li>
+						 <li>
+						 <a href="location.html">Location</a>
+						 </li>
+	                   
+	                </ul>
+	            </div>
+   
+	            <!-- /.navbar-collapse -->
+	        </div>
+	        <!-- /.container -->
+	    </nav>
+	    
+		<div class="container">
+			<br />
+	     <div class="container">
+			<br />
+		<div class="container">
+			<br />
+	    
+		
+  <br /><br /><br />
+ 
+
+
+<h2>Donation Request Form</h2>
+
+<br/>
+  
+    <h3>This is our standard form that we keep on file for tax purposes. Please provide as much information as possible.</h3>
+
+    <h4>(Donation Requested: Please be specific as to what your organization needs and what it will be used for. i.e.: Pizzas for concessions, Gift certificates for raffle, etc.)</h4>
+    <hr />
+    <br />
+    
+     
+    
+    <form class="form-horizontal" action="/donations" method=post>
+    <div style="display:none;"><input id="csrf_token" name="csrf_token" type="hidden" value="1589657317##b83cfe6e62240be3132dba4e23f1584e69e0db0a"></div>
+   
+      <div class="form-group"> 
+        <label class="col-sm-2 control-label" for="org">Organization*</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="org" name="org" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-2 control-label" for="event">Event*</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="event" name="event" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-2 control-label" for="needed">Date Needed*</label>
+        <div class="col-sm-10">
+          <input class="form-control box" id="needed" name="needed" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-2 control-label" for="store">Preferred Store*</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="store" name="store" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-2 control-label" for="donation">Donation Requested*</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="donation" name="donation" type="text" value="">
+        </div>
+      </div>
+	  <div class="form-group"> 
+        <label class="col-sm-2 control-label" for="name">Contact Name*</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="name" name="name" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-2 control-label" for="email">Email*</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="email" name="email" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-2 control-label" for="phone">Phone*</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="phone" name="phone" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-2 control-label" for="add1">Address 1*</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="add1" name="add1" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-2 control-label" for="add2">Address 2</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="add2" name="add2" type="text" value="">
+        </div>
+      </div> 
+
+      <div class="form-group"> 
+        <label class="col-sm-2 control-label" for="city">City*</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="city" name="city" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-2 control-label" for="state">State*</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="state" name="state" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-2 control-label" for="zipcode">Zip Code*</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="zipcode" name="zipcode" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-2 control-label" for="message">Comments / Purpose for Donation*</label>
+        <div class="col-sm-10">
+          <textarea class="form-control" id="message" name="message"></textarea>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+         <input class="btn btn-primary" id="submit" name="submit" type="submit" value="Send">
+        </div>
+      </div>
+    </form>
+	</div>
+	<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<div class="col-md-12 text-center">
+					<p class="text-muted">&copy 2020 Menu Restaurant. Proudly serving Virginia, Tennessee & Kentucky since 1982.</p>
+					<p class="text-muted">
+						<i class="fa fa-cutlery fa-fw"></i><a href="static/img/nutrition-info.pdf">Nutrition Info</a>
+						<i class="fa fa-send fa-fw"></i><a href="mailto:office@pizzaplusinc.com">Feedback Email</a> 
+						<i class="fa fa-twitter fa-fw"></i><a href="https://twitter.com/pizzaplus">Twitter</a>
+						<i class="fa fa-facebook fa-fw"></i><a href="https://facebook.com/pizzapluspizza">Facebook</a>
+					</p>
+					<p class="text-muted"><i class="fa fa-users fa-fw"></i><a href="https://gmail.com">Employee Email</a></p>				
+
+				</div>
+			</div>
+		</footer>

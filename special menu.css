@@ -1,0 +1,138 @@
+body {
+    font-family: "PT Sans Narrow";
+    font-size: 16px;
+    line-height: 28px;
+}
+p{
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+h1 {
+    letter-spacing: 8px;
+}
+a.logo-link{
+    text-decoration: none;
+    color: unset;
+}
+a:hover.logo-link{
+    text-decoration: none;
+    color: unset;
+}
+.bg-dark-1 {
+    background-color: #121618;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    opacity: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background-color: #ffc851;
+}
+
+.overlay-r {
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    min-height: 200px;
+}
+
+.overlay-hover:hover .overlay {
+    opacity: 0.7;
+}
+
+.overlay-hover:hover {
+    cursor: pointer;
+}
+
+.social a, a.overlay-hover {
+    color: unset;
+    text-decoration: unset;
+}
+
+.social {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social li {
+    display: inline;
+}
+
+.social a {
+    padding: 10px;
+    display: inline;
+}
+
+.social a:hover {
+    color: #959595;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 999;
+}
+.text-yellow{
+    color: #ffc851;
+}
+.bg-yellow{
+    background-color: #ffc851;
+}
+.btn, .navbar-toggler {
+    border-radius: 0;
+}
+
+.btn-primary {
+    color: #121618 !important;
+    border-color: #121618 !important;
+    background-color: #ffc851 !important;
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+    border-color: #ffc851 !important;
+    background-color: #121618 !important;
+}
+
+.btn-primary:active:focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 200, 81, 0.5) !important;
+}
+
+.btn-primary:focus, .btn-primary:active {
+    color: #121618 !important;
+    background-color: #cc974b !important;
+    border-color: #3c4244 !important;
+}
+input{
+
+}
+.form-control::placeholder{
+    color: #121618;
+}
+.form-control{
+    color: #121618;
+    font-family: "PT Sans Narrow";
+    border: 2px solid;
+    border-color: #1d2326;
+    border-radius: 0;
+    line-height: 26px;
+    background-color: transparent;
+}
+
+.form-control:focus{
+    border-color: #1d2326;
+}
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{
+    border-color: black;
+}
+span.wpcf7-not-valid-tip{
+    color: darkred;
+}

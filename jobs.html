@@ -1,0 +1,254 @@
+<!Doctype html>
+<html>
+	<head>
+		<!-- page meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="logoBig.png" type="image/x-icon">
+		<!-- end page meta -->
+		<title></title>
+		<!-- bootstrapcdn.com bootstrap.min.css -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="
+		sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="jquery.css">
+		<!-- bootstrapcdn.com Font Awesome -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+		<link rel="stylesheet" href="copy1.css">
+		<!-- <link rel="stylesheet" href="/static/navbar.css"> -->
+		
+	</head>
+	<body>
+	    <!-- Navigation -->
+	    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	        <div class="container">
+	            <!-- Brand and toggle get grouped for better mobile display -->
+	            <div class="navbar-header">
+<!-- 	                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+	                 aria-expanded="false" aria-controls="navbar">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar top-bar"></span>
+	                    <span class="icon-bar middle-bar"></span>
+	                    <span class="icon-bar bottom-bar"></span>
+	                </button> -->
+				    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				    </button>
+	              
+	            </div>
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse" id="navbar">
+	                <ul class="nav navbar-nav navbar-right">
+					<li>
+					<a href="test.html">Home</a>
+					</li>
+	                    
+	                    <li>
+	                        <a href="main menu.html">Menu</a>
+	                    </li>
+						<li>
+	                        <a href="special menu.html">Hot Sales</a>
+	                    </li>
+				        <li>
+						<a href="contact.html">Contact</a>
+						</li>
+						
+				        <li><a href="jobs.html">Jobs</a></li>
+	                    <li>
+	                        <a href="order online.html">Order Online</a>
+	                    </li>
+						<li>
+						 <a href="donation.html">Donation Request</a>
+						 </li>
+						 <li>
+						 <a href="food.html">Book a table</a>
+						 </li>
+						 <li>
+						 <a href="location.html">Location</a>
+						 </li>
+
+	                </ul>
+	            </div>
+	            <!-- /.navbar-collapse -->
+	        </div>
+	        <!-- /.container -->
+	    </nav>
+	    
+		<div class="container">
+			<br />
+			
+  <br /><br /><br />
+<!--   <h2> Available Jobs</h2>
+
+<h4>Managment Positions</h4>
+<p>(10/25/2016) White Pine, TN</p>
+<br /> -->
+
+<h3>Job Interest Form</h3>
+
+
+    <p>Note: This is only a job interest form.</p>
+    
+      
+    
+    <form class="form-horizontal" action="/jobs" method=post>
+    <div style="display:none;"><input id="csrf_token" name="csrf_token" type="hidden" value="1588881437##2e24920fd238d8068fcd8148a3e905a14257c5a7"></div>
+
+      <div class="form-group"> 
+        <label class="col-sm-1 control-label" for="name">Name</label>
+        <div class="col-sm-11">
+          <input class="form-control" id="name" name="name" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-1 control-label" for="email">Email</label>
+        <div class="col-sm-11">
+          <input class="form-control" id="email" name="email" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-1 control-label" for="phone">Phone</label>
+        <div class="col-sm-11">
+          <input class="form-control" id="phone" name="phone" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-1 control-label" for="prefstore">Prefered Store*</label>
+        <div class="col-sm-11">
+          <input class="form-control" id="prefstore" name="prefstore" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-1 control-label" for="altstore">Alternate Store*</label>
+        <div class="col-sm-11">
+          <input class="form-control" id="altstore" name="altstore" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-1 control-label" for="over18">Over 18?</label>
+        <div class="col-sm-11">
+          <select class="form-control" id="over18" name="over18"><option value="yes">Yes</option><option value="no">No</option></select>
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-1 control-label">
+        Availability
+        </label>
+        <div class="col-sm-1">
+          <label class="control-label" for="availdays">Days</label>
+          <input checked class="form-control" id="availdays" name="availdays" type="checkbox" value="y">
+        </div>
+        <div class="col-sm-1">
+          <label class="control-label" for="availnights">Nights</label>
+          <input checked class="form-control" id="availnights" name="availnights" type="checkbox" value="y">
+        </div>
+        <div class="col-sm-1">
+          <label class="control-label" for="availweekend">Weekends</label>
+          <input checked class="form-control" id="availweekend" name="availweekend" type="checkbox" value="y">
+        </div>                
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-1 control-label">
+        Desired Postition(s)
+        </label>
+        <div class="col-sm-1">
+          <label class="control-label" for="poscook">Cook</label>
+          <input checked class="form-control" id="poscook" name="poscook" type="checkbox" value="y">
+        </div>
+        <div class="col-sm-1">
+          <label class="control-label" for="poshost">Host(ess)</label>
+          <input checked class="form-control" id="poshost" name="poshost" type="checkbox" value="y">
+        </div>
+        <div class="col-sm-1">
+          <label class="control-label" for="posdriver">Driver</label>
+          <input checked class="form-control" id="posdriver" name="posdriver" type="checkbox" value="y">
+        </div>
+        <div class="col-sm-1">
+          <label class="control-label" for="posmgr">Management</label>
+          <input checked class="form-control" id="posmgr" name="posmgr" type="checkbox" value="y">
+        </div>                          
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-1 control-label" for="refer">How did you hear about us?*</label>
+        <div class="col-sm-11">
+          <input class="form-control" id="refer" name="refer" type="text" value="">
+        </div>
+      </div>
+
+      <div class="form-group"> 
+        <label class="col-sm-1 control-label" for="message">Comments</label>
+        <div class="col-sm-11">
+          <textarea class="form-control" id="message" name="message"></textarea>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-1 col-sm-11">
+         <input class="btn btn-primary" id="submit" name="submit" type="submit" value="Send">
+        </div>
+      </div>
+
+    </form>
+    
+
+<h3>Application</h3>
+<p>Download our application, fill it in and email it to <a href="mailto:jobs@MENUS.com">jobs@MENUS.com</a> or drop it off at your local location.</p>
+<div class="well">
+	<h4>Recommended programs to fill pdf form.</h4>
+	<p>Windows: <a href="https://get.adobe.com/reader/">Adobe Reader</a> or <a href="https://google.com/chrome">Chrome</a>.</p>
+	<p>Mac: Preview.app or <a href="https://google.com/chrome">Chrome</a>.</p>
+	<p>Linux: <a href="https://google.com/chrome">Chrome</a>.</p>
+</div>
+<a href="static/img/application.pdf" class="btn btn-info">Download Application</a>
+
+<br /><br />
+
+
+
+
+		</div>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<div class="col-md-12 text-center">
+					
+					<p class="text-muted">
+						<i class="fa fa-cutlery fa-fw"></i><a href="static/img/nutrition-info.pdf">Nutrition Info</a>
+						<i class="fa fa-send fa-fw"></i><a href="mailto:MENUS.com">Feedback Email</a> 
+						<i class="fa fa-twitter fa-fw"></i><a href="https://twitter.com/MENUS">Twitter</a>
+						<i class="fa fa-facebook fa-fw"></i><a href="https://facebook.com/MENUS">Facebook</a>
+					</p>
+					<p class="text-muted"><i class="fa fa-users fa-fw"></i><a href="https://gmail.com">Employee Email</a></p>				
+
+				</div>
+			</div>
+		</footer>
+
+		<!-- js -->
+		<!-- jquery -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+		<script>
+			$(document).ready(function() {
+			  $(".navbar-toggle").on("click", function() {
+			    $(this).toggleClass("active");
+			  });
+			});
+		</script>
+		
+		<!-- end js -->
+	</body>
+</html>
